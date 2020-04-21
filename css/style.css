@@ -1,0 +1,180 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+a { text-decoration: none;}
+li { list-style: none;}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    min-width: 1200px;
+    font-size: 18px;
+}
+/* 헤더 */
+#main_header {
+    width: 1200px; height: 100px;
+    position: relative;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+}
+#main_header > h1 {
+    position: absolute
+    
+}
+#gnb {
+    position: absolute
+   
+}
+#gnb > ul > li {
+    display: inline-block;
+    margin-right: 40px;
+}
+#gnb > ul > li:last-child { margin-right: 0;}
+
+#gnb > ul > li > a {
+    position: relative;
+    top: 35px;
+    left: 780px;
+    color: #88888b;
+}
+#gnb img {
+    position: relative;
+    left: 1145px;
+    top: 10px;
+}
+/* 메인비주얼 */
+#visual {
+    position: relative;
+    overflow: hidden;
+    height: 650px;
+    outline: 1px solid red;
+}
+#visual > .img {   
+    width: 1920px;
+    height: 650px;
+}    
+#visual_pager {
+    background-color: #00a5e8;
+    ;
+    /* outline: 1px solid red; */
+    position: absolute;
+    height: 55px;
+    bottom: 0;
+    width: 1200px;
+    left: 50%; right: 0;
+    margin-left: -600px;
+    
+}   
+#visual_pager > a {
+    color: white;
+    display: block;
+    float: left;
+    line-height: 55px;
+    width: 33.33%;
+    text-align: center;
+}    
+#visual .container-full {
+    background-color: #00a5e8;
+}
+/* 비주얼 버튼 배경색 상태 */
+#visual_pager > a.seleted {
+    background-color: #b1cb17;
+}
+#visual_pager > a:hover {
+    background-color: #90a714;
+}
+/* 공지사항 */
+#notice {
+    height: 45px;
+    outline: 1px solid red;
+    background-color: #044BD9;
+    color: white;
+}
+#notice > .notice_container {
+    width: 1200px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#notice > .notice_container .title {
+    float: left;
+    font-size: 16px;
+}
+#notice > .notice_container .title span {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#notice > .notice_container .text {
+    float: left;  
+    font-size: 15px;
+}
+#notice > .notice_container .date {
+    float: right;
+    font-size: 15px;
+}
+#notice > p {
+    padding-top: 0;
+}
+/* 섹션 */
+section header h2 {
+    font-size: 34px;
+}
+section header p {
+    font-size: 16px;
+    padding-bottom: 10x;
+    color: #666;
+}
+section h3 {
+    font-size: 20px;
+}
+#operation{
+    width: 1200px;
+    outline: 1px solid red;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#operation > .row {
+    overflow: hidden;
+    padding-top: 10px;
+}
+#operation > .row > .col {
+    position: relative;
+    width: 386.66px;
+    height: 355px;
+    float: left;
+    margin-right: 20px;
+    padding-top: 100px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+#operation > .row > .col > h3 {
+    padding-top: 2em;
+}  
+#operation > .row > .col:last-child {
+    margin-right: 0;
+}
+/* hover식 cover 박스 */
+#operation > .row > .col .cover {
+    display: none;
+    color: white;
+}
+#operation > .row > .col .cover img {
+    padding-top: 50px;
+}
+#operation > .row > .col .cover h3 {
+    padding-top: 20px;
+}
+#operation > .row > .col .cover p{
+    padding-top: 10px;
+    font-size: 16px;
+}
+#operation > .row > .col:hover .cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00a5e8;
+    display: block;
+    top: 0;
+} 
