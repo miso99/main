@@ -37,6 +37,9 @@ body {
     left: 780px;
     color: #88888b;
 }
+#gnb > ul > li > a:hover {
+    color: #00a5e8;
+}
 
 /* 메인비주얼 */
 #visual {
@@ -246,11 +249,15 @@ section h3 {
     padding-right: 10px;
     float: left;
     color: #666;
+    font-size: 14px;
   }
-  #footer_menu > a {
+  #footer_menu > .btn_top {
     background-color: #444;
     color: #fff;
     float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
   }
   .footer_info {
     font-size: 15px;
@@ -267,6 +274,7 @@ section h3 {
     left: 450px;
     padding-top: 20px;
     padding-bottom: 10px;
+    font-style: normal;
   }
   .footer_info > p {
     position: relative;
