@@ -40,7 +40,6 @@ body {
 #gnb > ul > li > a:hover {
     color: #00a5e8;
 }
-
 /* 메인비주얼 */
 #visual {
     position: relative;
@@ -265,8 +264,10 @@ section h3 {
   
   }
   .footer_info > img {
-    position: absolute;
     float: left;
+  }
+  .footer_info > a {
+    position: absolute;
     padding: 60px;
   }
   .footer_info > address {
