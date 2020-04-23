@@ -225,59 +225,80 @@ section h3 {
 }
 /* 푸터 */
 #main_footer {
-    width: 1200px;
-    height: 190px;
-    margin: 0 auto;
-    /* outline: 1px solid red; */
-  }
-  #footer_menu {
-    height: 35px;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #dddddd;
-    line-height: 35px;
-  }
-  .footer-container-full {
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #dddddd;
-  }
-  #footer_menu > ul > li {
-    display: inline;
-   
-  }
-  #footer_menu > ul > li > a {
-    padding-right: 10px;
-    float: left;
-    color: #666;
-    font-size: 14px;
-  }
-  #footer_menu > .btn_top {
-    background-color: #444;
-    color: #fff;
-    float: right;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 14px;
-  }
-  .footer_info {
-    font-size: 15px;
-    padding-top: 10px;
+  width: 1200px;
+  height: 190px;
+  margin: 0 auto;
+  /* outline: 1px solid red; */
+  position: relative;
   
-  }
-  .footer_info > img {
-    float: left;
-    position: absolute;
-    padding: 50px;
-  }
+}
+#footer_menu {
+  width: 1200px;
+  height: 35px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #dddddd;
+  line-height: 35px;
+}
+.footer-container-full {
+  width: 1920px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #dddddd;
+}
+#footer_menu > ul > li {
+  display: inline;
+  margin: 0 auto;
  
-  .footer_info > address {
-    position: relative;
-    left: 450px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-style: normal;
-  }
-  .footer_info > p {
-    position: relative;
-    left: 450px;
-  }
+}
+#footer_menu > ul > li:last-child {
+    font-weight: bold;
+}
+#footer_menu > ul > li a {
+  margin-left: 10px;
+  padding-right: 10px;
+  float: left;
+  color: #666;
+  font-size: 14px;
+
+}
+
+#footer_menu > .btn_top {
+  background-color: #444;
+  color: #fff;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+
+}
+.footer_info {
+  /* outline: 1px solid red; */
+  height: 150px;
+  font-size: 15px;
+  padding-top: 20px;
+
+}
+
+.mb {
+  margin-bottom: 5px;
   
+}
+.footer_info span {
+  display: inline-block;
+}
+.footer_info > img {
+  position: absolute;
+  left: 0; 
+  margin-top: 30px;
+ 
+}
+.footer_info > address {
+  color: #666;
+  margin-left: 250px;
+  padding-top: 10px;
+  font-style: normal;
+}
+.footer_info > p {
+  color: #666;
+  margin-left: 250px;
+  left: 450px;
+}
