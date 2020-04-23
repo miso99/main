@@ -75,7 +75,7 @@ body {
     background-color: #00a5e8;
 }
 /* 비주얼 버튼 배경색 상태 */
-#visual_pager > a.seleted {
+#visual_pager > a.selected {
     background-color: #b1cb17;
 }
 #visual_pager > a:hover {
@@ -265,11 +265,10 @@ section h3 {
   }
   .footer_info > img {
     float: left;
-  }
-  .footer_info > a {
     position: absolute;
-    padding: 60px;
+    padding: 50px;
   }
+ 
   .footer_info > address {
     position: relative;
     left: 450px;
